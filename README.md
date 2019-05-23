@@ -8,6 +8,6 @@ http://localhost:8080/14_Bibliotheque_V2/serv
 
 Créer une database nommée "bibliotheque" et une table nommée "livre"
 
-create table livre (id int PRIMARY KEY auto_increment, titre varchar(50), auteur varchar(50), prix DOUBLE);
+create table livre (id int PRIMARY KEY auto_increment, titre varchar(50), auteur varchar(50), prix FLOAT);
 
 
