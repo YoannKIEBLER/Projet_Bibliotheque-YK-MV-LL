@@ -12,6 +12,5 @@ Créer une database nommée "bibliotheque" et une table nommée "livre":
 CREATE DATABASE 'bibliotheque';
 USE bibliotheque;
 CREATE TABLE livre (id int PRIMARY KEY auto_increment, titre varchar(50), auteur varchar(50), prix FLOAT);
->>>>>>> 82957767af1cb9ab54640c6e202dfffd5f736d4f
 
 
